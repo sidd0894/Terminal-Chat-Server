@@ -1,7 +1,7 @@
 import socket
 import threading
 
-SERVER = input('Enter the IPv4 address of server: ')
+SERVER = input('Enter server address: ')
 while True:
     try:
         PORT = int(input('Port number: '))
