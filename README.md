@@ -29,3 +29,20 @@ Download the zip of this repository  from the green 'Code' button on top or you 
     ```
     python client.py
     ```
+
+# Disclaimer
+
+This chat application is designed for educational purposes and may not be suitable for production use. It currently lacks robust encryption and authentication features, so communications are sent in plaintext and could be intercepted by third parties. 
+
+**Security Warning:**
+- **Encryption:** This application does not use encryption for communications. Any data exchanged between clients can be intercepted.
+- **Authentication:** The application does not include authentication mechanisms to verify user identity.
+
+**Usage Recommendations:**
+- Use this application only in a controlled, secure environment.
+- Do not use it for sensitive or confidential communications.
+
+**Dependencies:**
+- This project depends on [socket](https://docs.python.org/3/library/socket.html) and [threading](https://docs.python.org/3/library/threading.html). Ensure these libraries are up to date to avoid known vulnerabilities.
+
+By using this project, you acknowledge that you understand these limitations and risks.
